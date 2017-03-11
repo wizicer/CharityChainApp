@@ -12,7 +12,7 @@ export class OrgListPage {
   currentItems: Item[];
 
   constructor(public navCtrl: NavController, public items: Items, public navParams: NavParams) {
-    this.currentItems = this.items.query();
+    this.currentItems = this.items.query().filter((a) => (a as any).isOwned == true);
   }
 
   ionViewDidLoad() {

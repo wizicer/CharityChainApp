@@ -20,6 +20,7 @@ export class Items {
          "name": "Give Clean Water",
          "profilePic": "assets/img/projects/water.jpg",
          "about": "1 in 10 people lack access to clean water. We’re on a mission to change that. Here’s how.",
+         "isOwned": true,
          "count": 80000
       },
       {
