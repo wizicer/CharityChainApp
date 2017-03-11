@@ -1,19 +1,17 @@
+import { Items } from './../../providers/providers';
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
-/*
-  Generated class for the DonatorHistory page.
-
-  See http://ionicframework.com/docs/v2/components/#navigation for more info on
-  Ionic pages and navigation.
-*/
 @Component({
   selector: 'page-donator-history',
   templateUrl: 'donator-history.html'
 })
 export class DonatorHistoryPage {
+  item: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {}
+  constructor(public navCtrl: NavController, navParams: NavParams, items: Items) {
+    this.item = navParams.get('item') || items.defaultItem;
+  }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad DonatorHistoryPage');
