@@ -1,3 +1,4 @@
+import { OrgReceiverAssignPage } from './../pages/org-receiver-assign/org-receiver-assign';
 import { OrgReceiverListPage } from './../pages/org-receiver-list/org-receiver-list';
 import { OrgProjectPage } from './../pages/org-project/org-project';
 import { OrgListPage } from './../pages/org-list/org-list';
@@ -87,7 +88,8 @@ let pages = [
   DonatorHistoryDetailPage,
   OrgListPage,
   OrgProjectPage,
-  OrgReceiverListPage
+  OrgReceiverListPage,
+  OrgReceiverAssignPage,
 ];
 
 export function declarations() {

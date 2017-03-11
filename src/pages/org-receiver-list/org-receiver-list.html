@@ -1,6 +1,12 @@
 <ion-header>
   <ion-navbar>
     <ion-title>Receiver</ion-title>
+
+    <ion-buttons end *ngIf="isManage">
+      <button ion-button icon-only (click)="addItem()">
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
 <ion-content>

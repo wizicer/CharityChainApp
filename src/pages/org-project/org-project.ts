@@ -15,7 +15,10 @@ export class OrgProjectPage {
   }
 
   assign() {
-    // this.navCtrl.push(DonationPayPage);
+    this.navCtrl.push(OrgReceiverListPage, 
+    {
+      "manage": false
+    });
   }
 
   history() {
@@ -23,7 +26,10 @@ export class OrgProjectPage {
   }
 
   manage() {
-    this.navCtrl.push(OrgReceiverListPage);
+    this.navCtrl.push(OrgReceiverListPage, 
+    {
+      "manage": true
+    });
   }
 
 
