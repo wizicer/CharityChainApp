@@ -1,3 +1,4 @@
+import { OrgReceiverListPage } from './../org-receiver-list/org-receiver-list';
 import { Items } from './../../providers/providers';
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
@@ -21,8 +22,8 @@ export class OrgProjectPage {
     // this.navCtrl.push(DonationPayPage);
   }
 
-  register() {
-    // this.navCtrl.push(DonationPayPage);
+  manage() {
+    this.navCtrl.push(OrgReceiverListPage);
   }
 
 

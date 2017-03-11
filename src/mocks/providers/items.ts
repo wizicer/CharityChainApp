@@ -13,6 +13,14 @@ export class Items {
     "about": "Burt is a Bear.",
   };
 
+  receivers: any = [
+    {
+      "name": "Student 1",
+      "profilePic": "assets/img/sarah-avatar.png.jpeg",
+      "money": 20,
+      "about": "About Student 1",
+    }
+  ];
 
   constructor(public http: Http) {
     let items = [
