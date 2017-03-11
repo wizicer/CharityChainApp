@@ -1,3 +1,4 @@
+import { DonatorProfilePage } from './../donator-profile/donator-profile';
 import { DonationDetailPage } from './../donation-detail/donation-detail';
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
@@ -26,6 +27,6 @@ export class DonationListPage {
   }
 
   gotoTrack() {
-    // this.navCtrl.push();
+    this.navCtrl.push(DonatorProfilePage);
   }
 }

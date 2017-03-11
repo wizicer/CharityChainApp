@@ -1,0 +1,36 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Profile</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+<ion-list>
+  <ion-item>
+    <ion-avatar item-left>
+      <img src="assets/img/ian-avatar.png">
+    </ion-avatar>
+    <h2>User</h2>
+    <p>You donated totally 10000 RMB.</p>
+  </ion-item>
+</ion-list>
+<ion-list>
+  <ion-list-header>
+    History List
+  </ion-list-header>
+  <ion-item *ngFor="let item of currentItems">
+    <button ion-item (click)="openItem(item)">
+      <ion-avatar item-left>
+        <img [src]="item.profilePic" />
+      </ion-avatar>
+      <h2>{{item.name}}</h2>
+      <p>{{item.about}}</p>
+      <p>共<ion-badge item-right>{{item.count}}</ion-badge>份爱心</p>
+      <ion-note item-right *ngIf="item.note">{{item.note}}</ion-note>
+    </button>
+  </ion-item>
+</ion-list>
+</ion-content>
