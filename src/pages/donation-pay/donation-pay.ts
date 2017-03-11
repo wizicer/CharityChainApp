@@ -9,11 +9,6 @@ export class DonationPayPage {
   pet: string;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.pet='kittens';
+    this.pet='bc';
   }
-
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad DonationPayPage');
-  }
-
 }

@@ -16,32 +16,32 @@
 <ion-content>
 <div padding>
   <ion-segment [(ngModel)]="pet">
-    <ion-segment-button value="kittens">
+    <ion-segment-button value="bc">
       Bitcoin
     </ion-segment-button>
-    <ion-segment-button value="puppies">
-      Other
+    <ion-segment-button value="ap">
+      AliPay
+    </ion-segment-button>
+    <ion-segment-button value="wp">
+      Wechat Pay
     </ion-segment-button>
   </ion-segment>
 </div>
 
 <div [ngSwitch]="pet">
-  <ion-list *ngSwitchCase="'puppies'">
-    <ion-item>
-      <ion-thumbnail item-left>
-        <img src="img/thumbnail-puppy-1.jpg">
-      </ion-thumbnail>
-      <h2>AliPay</h2>
-    </ion-item>
-    <ion-item>
-      <ion-thumbnail item-left>
-        <img src="img/thumbnail-puppy-1.jpg">
-      </ion-thumbnail>
-      <h2>Wechat Pay</h2>
-    </ion-item>
+  <ion-list *ngSwitchCase="'ap'">
+    <ion-card>
+      <img src="assets/img/alipayqr.jpg">
+    </ion-card>
   </ion-list>
-
-  <ion-list *ngSwitchCase="'kittens'">
+  
+  <ion-list *ngSwitchCase="'wp'">
+    <ion-card>
+      <img src="assets/img/qr.png">
+    </ion-card>
+  </ion-list>
+  
+  <ion-list *ngSwitchCase="'bc'">
     <ion-card>
       <img src="assets/img/qr.png">
     </ion-card>
