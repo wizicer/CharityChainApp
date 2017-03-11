@@ -17,9 +17,9 @@ export class Items {
   constructor(public http: Http) {
     let items = [
       {
-         "name": "新学期温暖包",
-         "profilePic": "assets/img/speakers/bear.jpg",
-         "about": "温暖包，和孩子们一起迎接新学期",
+         "name": "Give Clean Water",
+         "profilePic": "assets/img/projects/water.jpg",
+         "about": "1 in 10 people lack access to clean water. We’re on a mission to change that. Here’s how.",
          "count": 80000
       },
       {
