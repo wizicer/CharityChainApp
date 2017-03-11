@@ -17,40 +17,23 @@ export class Items {
   constructor(public http: Http) {
     let items = [
       {
-         "name": "Burt Bear",
+         "name": "新学期温暖包",
          "profilePic": "assets/img/speakers/bear.jpg",
-         "about": "Burt is a Bear."
-       },
-       {
-         "name": "Charlie Cheetah",
-         "profilePic": "assets/img/speakers/cheetah.jpg",
-         "about": "Charlie is a Cheetah."
-       },
-       {
-         "name": "Donald Duck",
-         "profilePic": "assets/img/speakers/duck.jpg",
-         "about": "Donald is a Duck."
-       },
-       {
-         "name": "Eva Eagle",
-         "profilePic": "assets/img/speakers/eagle.jpg",
-         "about": "Eva is an Eagle."
-       },
-       {
-         "name": "Ellie Elephant",
-         "profilePic": "assets/img/speakers/elephant.jpg",
-         "about": "Ellie is an Elephant."
-       },
-       {
-         "name": "Molly Mouse",
-         "profilePic": "assets/img/speakers/mouse.jpg",
-         "about": "Molly is a Mouse."
-       },
-       {
-         "name": "Paul Puppy",
-         "profilePic": "assets/img/speakers/puppy.jpg",
-         "about": "Paul is a Puppy."
-       }
+         "about": "温暖包，和孩子们一起迎接新学期",
+         "count": 80000
+      },
+      {
+         "name": "新学期温暖包",
+         "profilePic": "assets/img/speakers/bear.jpg",
+         "about": "温暖包，和孩子们一起迎接新学期",
+         "count": 80000
+      },
+      {
+         "name": "新学期温暖包",
+         "profilePic": "assets/img/speakers/bear.jpg",
+         "about": "温暖包，和孩子们一起迎接新学期",
+         "count": 80000
+      }
      ];
 
      for(let item of items) {

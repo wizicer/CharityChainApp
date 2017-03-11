@@ -1,3 +1,6 @@
+import { DonationPayPage } from './../pages/donation-pay/donation-pay';
+import { DonationDetailPage } from './../pages/donation-detail/donation-detail';
+import { DonationListPage } from './../pages/donation-list/donation-list';
 import { NgModule, ErrorHandler } from '@angular/core';
 import { Http } from '@angular/http';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
@@ -69,7 +72,10 @@ let pages = [
   ItemCreatePage,
   MenuPage,
   SettingsPage,
-  SearchPage
+  SearchPage,
+  DonationListPage,
+  DonationDetailPage,
+  DonationPayPage
 ];
 
 export function declarations() {
