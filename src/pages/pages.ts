@@ -1,3 +1,4 @@
+import { OrgListPage } from './org-list/org-list';
 import { DonationListPage } from './donation-list/donation-list';
 
 import { TabsPage } from './tabs/tabs';
@@ -15,5 +16,5 @@ export const MainPage = TabsPage;
 
 // The initial root pages for our tabs (remove if not using tabs)
 export const Tab1Root = DonationListPage;
-export const Tab2Root = SearchPage;
+export const Tab2Root = OrgListPage;
 export const Tab3Root = SettingsPage;

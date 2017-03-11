@@ -1,11 +1,10 @@
 <ion-header>
-
   <ion-navbar>
     <ion-title>Projects</ion-title>
 
     <ion-buttons end>
-      <button ion-button icon-only (click)="gotoTrack()">
-        <ion-icon name="person"></ion-icon>
+      <button ion-button icon-only (click)="addItem()">
+        <ion-icon name="add"></ion-icon>
       </button>
     </ion-buttons>
   </ion-navbar>
@@ -26,7 +25,11 @@
         <ion-note item-right *ngIf="item.note">{{item.note}}</ion-note>
       </button>
 
+      <ion-item-options>
+        <button ion-button color="danger" (click)="deleteItem(item)">
+          {{ 'DELETE_BUTTON' | translate }}
+        </button>
+      </ion-item-options>
     </ion-item-sliding>
   </ion-list>
 </ion-content>
-

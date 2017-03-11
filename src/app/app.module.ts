@@ -1,3 +1,4 @@
+import { OrgListPage } from './../pages/org-list/org-list';
 import { DonatorHistoryDetailPage } from './../pages/donator-history-detail/donator-history-detail';
 import { DonatorHistoryPage } from './../pages/donator-history/donator-history';
 import { DonatorProfilePage } from './../pages/donator-profile/donator-profile';
@@ -81,7 +82,8 @@ let pages = [
   DonationPayPage,
   DonatorProfilePage,
   DonatorHistoryPage,
-  DonatorHistoryDetailPage
+  DonatorHistoryDetailPage,
+  OrgListPage
 ];
 
 export function declarations() {
