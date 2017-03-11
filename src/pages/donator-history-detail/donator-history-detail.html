@@ -1,0 +1,22 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>History</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+<ion-list>
+  <ion-item *ngFor="let item of currentItems">
+    <ion-avatar item-left>
+      <ion-icon [name]="item.icon" color="primary" class="icon2x"></ion-icon>
+    </ion-avatar>
+    <h2>{{item.name}}</h2>
+    <ion-badge item-right>{{item.date}}</ion-badge>
+    <p>{{item.detail}}</p>
+    <p>{{item.transaction}}</p>
+  </ion-item>
+</ion-list>
+</ion-content>
