@@ -17,7 +17,9 @@ export class OrgReceiverAssignPage {
 
   form: FormGroup;
 
-  constructor(public navCtrl: NavController, public viewCtrl: ViewController, formBuilder: FormBuilder) {
+  constructor(public navCtrl: NavController, navParams: NavParams, public viewCtrl: ViewController, formBuilder: FormBuilder) {
+    this.item = navParams.get('item');
+
     this.form = formBuilder.group({
       profilePic: [''],
       name: ['', Validators.required],
@@ -28,6 +30,10 @@ export class OrgReceiverAssignPage {
     this.form.valueChanges.subscribe((v) => {
       this.isReadyToSave = this.form.valid;
     });
+  }
+
+  done() {
+    console.log(this.form.value.name);
   }
 
 }
