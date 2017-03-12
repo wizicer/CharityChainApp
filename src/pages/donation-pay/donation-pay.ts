@@ -11,4 +11,8 @@ export class DonationPayPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.pet='bc';
   }
+
+  pay(){
+    console.log("pay");
+  }
 }
