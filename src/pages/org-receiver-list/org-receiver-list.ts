@@ -1,3 +1,4 @@
+import { OrgReceiverCreatePage } from './../org-receiver-create/org-receiver-create';
 import { OrgReceiverAssignPage } from './../org-receiver-assign/org-receiver-assign';
 import { Items } from './../../providers/providers';
 import { Item } from './../../models/item';
@@ -25,5 +26,16 @@ export class OrgReceiverListPage {
     this.isManage = navParams.get('manage') || false;
   }
 
+  addItem(item : Item) {
+    if (this.isManage) {
+      this
+        .navCtrl
+        .push(OrgReceiverCreatePage, {item: item});
+    } else {
+      this
+        .navCtrl
+        .push(OrgReceiverAssignPage, {item: item});
+    }
+  }
 
 }
