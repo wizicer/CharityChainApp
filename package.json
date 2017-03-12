@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "1.0.0",
+    "angular2-websocket": "^0.9.1",
     "typescript": "2.0.9"
   },
   "cordovaPlugins": [

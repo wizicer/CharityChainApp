@@ -22,46 +22,46 @@ export class DonatorHistoryPage {
     this.item = navParams.get('item') || items.defaultItem;
     let localitems = [
       {
-         "project": "Give Clean Water",
-         "profilePic": "assets/img/projects/water.jpg",
+         "project": "Fund 1000 Scholarships in Rural China for a Year",
+         "profilePic": "assets/img/projects/ruralschool.jpg",
          "desc": "Money have been all assigned.",
          "money": 2,
          "list": [
            { 
              "icon": "thumbs-up",
              "name": "Donate",
-             "date": "2017-3-11 11:11:11",
-             "transaction": "1111-1111-1111-1111-1111-1111",
+             "date": "2017-3-12 11:13:31",
+             "transaction": "8627c041-7349-4570-9bc0-db1de9f1ab00",
              "detail": "Donate 2 RMB"
            },
            { 
              "icon": "star",
-             "name": "Received",
-             "date": "2017-3-11 11:11:11",
-             "transaction": "1111-1111-1111-1111-1111-1111",
+             "name": "Transferred",
+             "date": "2017-3-12 11:31:45",
+             "transaction": "1851c526-2f35-4556-bd6f-542a742bbd45",
              "detail": "Non-profit organization received"
            },
            { 
              "icon": "ribbon",
              "name": "Profit",
-             "date": "2017-3-11 11:11:11",
-             "transaction": "1111-1111-1111-1111-1111-1111",
+             "date": "2017-3-12 11:56:54",
+             "transaction": "eeb1a538-b809-471b-a66f-9db0b37526f2",
              "detail": "Lucy has received this fund"
            }
          ]
       },
       {
-         "name": "新学期温暖包",
-         "profilePic": "assets/img/speakers/bear.jpg",
-         "about": "温暖包，和孩子们一起迎接新学期",
-         "count": 80000
+         "project": "Education for Blind Chinese Orphans",
+         "profilePic": "assets/img/projects/blind.jpg",
+         "desc": "Money have been all assigned.",
+         "money": 2
       },
       {
-         "name": "新学期温暖包",
-         "profilePic": "assets/img/speakers/bear.jpg",
-         "about": "温暖包，和孩子们一起迎接新学期",
-         "count": 80000
-      }
+         "project": "Give Clean Water",
+         "profilePic": "assets/img/projects/water.jpg",
+         "desc": "Money have been all assigned.",
+         "money": 2,
+      },
     ];
     for(let histitem of localitems) {
       this.currentItems.push(new Item(histitem));
