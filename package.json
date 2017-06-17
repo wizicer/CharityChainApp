@@ -4,6 +4,7 @@
   "homepage": "http://ionicframework.com/",
   "private": true,
   "scripts": {
+    "deploy": "ngh --dir www",
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
     "ionic:build": "ionic-app-scripts build",
@@ -52,6 +53,9 @@
   ],
   "cordovaPlatforms": [],
   "description": "super: An Ionic project",
+  "config": {
+    "ionic_copy": "./config/copy.config.js"
+  },
   "cordova": {
     "plugins": {
       "cordova-plugin-console": {},
