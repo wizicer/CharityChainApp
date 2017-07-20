@@ -61,11 +61,14 @@ export class MyApp {
 
   constructor(translate: TranslateService, platform: Platform, settings: Settings, config: Config) {
     // Set the default language for translation strings, and the current language.
-    translate.setDefaultLang('en');
-    translate.use('en')
+    translate.setDefaultLang('zh');
+    settings.load().then(() => {
+      let options = settings.allSettings;
+      translate.use(options.language)
 
-    translate.get(['BACK_BUTTON_TEXT']).subscribe(values => {
-      config.set('ios', 'backButtonText', values.BACK_BUTTON_TEXT);
+      translate.get(['BACK_BUTTON_TEXT']).subscribe(values => {
+        config.set('ios', 'backButtonText', values.BACK_BUTTON_TEXT);
+      });
     });
 
     platform.ready().then(() => {
