@@ -1,4 +1,28 @@
 {
+  "PROJECTS": "Projects",
+  "LANGUAGE": "Language",
+  "DONATIONS": "Donations",
+  "DONATION": "Donation",
+  "PAY": "Pay",
+  "HISTORY": "History",
+  "HISTORY_DONATED": "Donated",
+  "HISTORY_TRANSFERRED": "Transferred",
+  "HISTORY_PROFIT": "Profit",
+  "MONEY_UNIT": "RMB",
+  "PROFILE": "Profile",
+  "HISTORY_LIST": "History List",
+  "MANAGE_RECEIVER": "Manage Receiver",
+  "ASSIGN_RECEIVER": "Assign Receiver",
+  "DONATION_HISTORY": "Donation History",
+
+  "TRANSACTION_SENT_SUCCESSFULLY": "Transaction sent successfully",
+  "MONEY_HAVE_BEEN_ALL_ASSIGNED": "Money have been all assigned.",
+  "HISTORY_DONATED_DESC": "Donate 2 RMB",
+  "HISTORY_TRANSFERRED_DESC": "Non-profit organization received",
+  "HISTORY_PROFIT_DESC": "Lucy has received this fund",
+  "YOU_DONATED_TOTALLY": "You donated totally",
+  "RECEIVER_RECEIVED": "Received",
+
   "BACK_BUTTON_TEXT" : "Back",
 
   "NAME": "Name",
@@ -8,8 +32,8 @@
   "LOGIN": "Sign in",
   "SIGNUP": "Sign up",
 
-  "TAB1_TITLE": "Items",
-  "TAB2_TITLE": "Search",
+  "TAB1_TITLE": "Donate",
+  "TAB2_TITLE": "Organization",
   "TAB3_TITLE": "Settings",
 
   "MAP_TITLE": "Map",

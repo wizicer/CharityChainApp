@@ -14,9 +14,9 @@
   <div class="item-detail" padding>
     <h2>{{item.name}}</h2>
     <p>{{item.about}}</p>
-    <button ion-button full (click)="manage()">Manage Receiver</button>
-    <button ion-button full (click)="assign()">Assign Receiver</button>
-    <button ion-button full (click)="history()">Donation History</button>
+    <button ion-button full (click)="manage()">{{ 'MANAGE_RECEIVER' | translate }}</button>
+    <button ion-button full (click)="assign()">{{ 'ASSIGN_RECEIVER' | translate }}</button>
+    <button ion-button full (click)="history()">{{ 'DONATION_HISTORY' | translate }}</button>
   </div>
 </ion-content>
 

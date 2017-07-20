@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import {$WebSocket} from 'angular2-websocket/angular2-websocket'
 import { ToastController } from 'ionic-angular';
+import { TranslateService } from "ng2-translate";
 
 @Component({
   selector: 'page-donation-pay',
@@ -9,9 +10,13 @@ import { ToastController } from 'ionic-angular';
 })
 export class DonationPayPage {
   pet: string;
+  successMessage: string;
 
-  constructor(public toastCtrl: ToastController, public navCtrl: NavController, public navParams: NavParams) {
+  constructor(translate: TranslateService, public toastCtrl: ToastController, public navCtrl: NavController, public navParams: NavParams) {
     this.pet='bc';
+    translate.get(['TRANSACTION_SENT_SUCCESSFULLY']).subscribe(values => {
+      this.successMessage = values.TRANSACTION_SENT_SUCCESSFULLY;
+    });
   }
 
   pay(){
@@ -49,7 +54,7 @@ export class DonationPayPage {
     }
     presentToast() {
     let toast = this.toastCtrl.create({
-      message: 'Transaction sent successfully',
+      message: this.successMessage,
       duration: 3000
     });
     toast.present();

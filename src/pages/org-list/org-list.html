@@ -1,6 +1,6 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Projects</ion-title>
+    <ion-title>{{ 'PROJECTS' | translate }}</ion-title>
 
     <ion-buttons end>
       <button ion-button icon-only (click)="addItem()">
@@ -21,7 +21,7 @@
         </ion-avatar>
         <h2>{{item.name}}</h2>
         <p>{{item.about}}</p>
-        <p><ion-badge item-right>{{item.count}}</ion-badge>donations</p>
+        <p><ion-badge item-right>{{item.count}}</ion-badge>{{ 'DONATIONS' | translate }}</p>
         <ion-note item-right *ngIf="item.note">{{item.note}}</ion-note>
       </button>
 

@@ -11,7 +11,7 @@
     <p>{{item.about}}</p>
     <ion-list>
       <ion-list-header>
-        History
+        {{ 'HISTORY' | translate }}
       </ion-list-header>
     <ion-item *ngFor="let histitem of currentItems">
       <button ion-item (click)="openItem(histitem)">
@@ -19,7 +19,7 @@
           <ion-icon name="heart" color="primary"></ion-icon>
         </ion-avatar>
         <h2>{{histitem.project}}</h2>
-        <h3>{{histitem.money}} RMB</h3>
+        <h3>{{histitem.money}} {{ 'MONEY_UNIT' | translate }}</h3>
         <p>{{histitem.desc}}</p>
       </button>
       </ion-item>

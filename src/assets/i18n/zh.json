@@ -1,48 +1,33 @@
 {
-  "NAME": "الاسم",
-  "PASSWORD": "كلمة السر",
-  "EMAIL": "البريد الإلكتروني",
-  "LOGIN": "تسجيل الدخول",
-  "SIGNUP": "انشاء الحساب",
+  "PROJECTS": "慈善项目",
+  "LANGUAGE": "语言",
+  "DONATIONS": "善款已收悉",
+  "DONATION": "捐赠",
+  "PAY": "支付",
+  "HISTORY": "历史记录",
+  "HISTORY_DONATED": "已捐赠",
+  "HISTORY_TRANSFERRED": "过户完成",
+  "HISTORY_PROFIT": "受益",
+  "MONEY_UNIT": "元",
+  "PROFILE": "个人资料",
+  "HISTORY_LIST": "历史列表",
+  "MANAGE_RECEIVER": "管理受助人",
+  "ASSIGN_RECEIVER": "指定受助人",
+  "DONATION_HISTORY": "捐赠历史",
 
-  "TAB1_TITLE": "عناصر",
-  "TAB2_TITLE": "بحث",
-  "TAB3_TITLE": "إعدادات",
+  "TRANSACTION_SENT_SUCCESSFULLY": "交易已完成",
+  "MONEY_HAVE_BEEN_ALL_ASSIGNED": "善款已完成捐赠流程",
+  "HISTORY_DONATED_DESC": "捐赠了 2 元",
+  "HISTORY_TRANSFERRED_DESC": "慈善基金会收到善款",
+  "HISTORY_PROFIT_DESC": "张三已收到善款",
+  "YOU_DONATED_TOTALLY": "你总共捐赠了",
+  "RECEIVER_RECEIVED": "Received",
 
-  "MAP_TITLE": "خريطة",
+  "BACK_BUTTON_TEXT" : "后退",
 
-  "TUTORIAL_SLIDE1_TITLE": "مرحبا بكم في عدة البدء Ionic Super Starter",
-  "TUTORIAL_SLIDE1_DESCRIPTION": "<b>Ionic Super Starter</b> عبارة عن عدة لبدء التطوير بواسطة Ionic. وهي تتميز بالعديد من الصفحات وأفضل الممارسات.",
+  "TAB1_TITLE": "捐赠者页面",
+  "TAB2_TITLE": "基金会页面",
+  "TAB3_TITLE": "设置",
 
-  "TUTORIAL_SLIDE2_TITLE": "كيفية استخدام Ionic Super Starter",
-  "TUTORIAL_SLIDE2_DESCRIPTION": "يمكنك تجميع أنواع الصفحات المختلفة التي ترغب بها وإزالة الباقي. وتوفر عدة البدء ​​العديد من تخطيطات الصفحات الاكثر شيوعا في التطبيقات النقالة، مثل صفحات تسجيل الدخول وانشاء الحساب، علامات التبويب، وهذه الصفحة التعليمية.",
-
-  "TUTORIAL_SLIDE3_TITLE": "كيفية الشروع",
-  "TUTORIAL_SLIDE3_DESCRIPTION": "هل تحتاج إلى مساعدة؟ يمكنك الاطلاع على README لبرنامج تعليمي كامل على Ionic Super Starter",
-
-  "SETTINGS_TITLE": "إعدادات",
-  "SETTINGS_OPTION1": "خيار 1",
-  "SETTINGS_OPTION2": "خيار 2",
-  "SETTINGS_OPTION3": "خيار 3",
-  "SETTINGS_OPTION4": "خيار 4",
-
-  "SETTINGS_PAGE_PROFILE": "تعديل الملف الشخصي",
-
-  "WELCOME_TITLE": "مرحبا",
-
-  "LOGIN_TITLE": "تسجيل الدخول",
-  "LOGIN_ERROR": "تسجيل الدخول مستحيل. يرجى التحقق من معلومات الحساب والمحاولة مرة أخرى.",
-  "LOGIN_BUTTON": "تسجيل الدخول",
-  "SIGNUP_TITLE": "انشاء الحساب",
-  "SIGNUP_ERROR": "انشاء الحساب مستحيل. يرجى التحقق من معلومات الحساب والمحاولة مرة أخرى.",
-  "SIGNUP_BUTTON": "انشاء الحساب",
-
-  "LIST_MASTER_TITLE": "عناصر",
-
-  "ITEM_CREATE_TITLE": "عنصر جديد",
-  "ITEM_CREATE_CHOOSE_IMAGE": "إضافة صورة",
-
-  "CARDS_TITLE": "اجتماعي",
-
-  "SEARCH_TITLE": "بحث"
+  "SETTINGS_TITLE": "设置"
 }
